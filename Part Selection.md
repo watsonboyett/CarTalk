@@ -20,6 +20,11 @@
 * SARA-U201 ($49, HSPA)
 
 
+## WiFi (instead of Cell Modem for v1?)
+
+* ESP8266-12S module ($7, on-board antenna)
+
+
 ## LiPo charging
 
 *
