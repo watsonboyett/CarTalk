@@ -163,8 +163,8 @@ L3: ground + power planes
 L4: ground plane, short traces</text>
 </plain>
 <libraries>
-<library name="CarTalkImu">
-<description>Generated from &lt;b&gt;CarTalkImu.brd&lt;/b&gt;&lt;p&gt;
+<library name="CarTalk">
+<description>Generated from &lt;b&gt;CarTalk.brd&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
 <package name="QFN24-NP">
@@ -652,203 +652,203 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J4" library="CarTalkImu" package="1X10" value="1X10" x="31.496" y="25.4" smashed="yes" rot="R90">
+<element name="J4" library="CarTalk" package="1X10" value="1X10" x="31.496" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.496" y="36.83" size="1.016" layer="25" rot="R180" align="center"/>
 </element>
-<element name="J5" library="CarTalkImu" package="1X10" value="1X10" x="9.144" y="25.4" smashed="yes" rot="R270">
+<element name="J5" library="CarTalk" package="1X10" value="1X10" x="9.144" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.144" y="36.83" size="1.016" layer="25" align="center"/>
 </element>
-<element name="MPU" library="CarTalkImu" package="QFN24-NP" value="MPU9250" x="22.225" y="29.21" smashed="yes" rot="MR180">
+<element name="MPU" library="CarTalk" package="QFN24-NP" value="MPU9250" x="22.225" y="29.21" smashed="yes" rot="MR180">
 <attribute name="NAME" x="22.225" y="31.877" size="1.016" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="22.225" y="29.21" size="1.016" layer="28" rot="MR180" align="center"/>
 <attribute name="MFG" value="TDK InvenSense" x="22.225" y="29.21" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN-DK" value="1428-1019-1-ND" x="22.225" y="29.21" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="MPU-9250" x="22.225" y="29.21" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="GPS" library="CarTalkImu" package="CAM-M8" value="CAM-M8" x="20.32" y="8.255" smashed="yes" rot="R180">
+<element name="GPS" library="CarTalk" package="CAM-M8" value="CAM-M8" x="20.32" y="8.255" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.67" y="3.175" size="1.016" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="20.32" y="8.255" size="1.016" layer="27" rot="R270" align="center"/>
 <attribute name="MFG" value="U-Blox America Inc." x="20.32" y="8.255" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PN-DK" value="672-1013-1-ND" x="20.32" y="8.255" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CAM-M8Q-0" x="20.32" y="8.255" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$5" library="CarTalkImu" package="SILK_QC" value="SILK_QC" x="28.575" y="6.985">
+<element name="U$5" library="CarTalk" package="SILK_QC" value="SILK_QC" x="28.575" y="6.985">
 <attribute name="PRODUCT" value="CarTalk" x="28.575" y="6.985" size="1.778" layer="27" display="off"/>
 <attribute name="REV" value="1A" x="28.575" y="6.985" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="DNP" x="28.575" y="6.985" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$6" library="CarTalkImu" package="FIDUCIAL_1MM" value="FIDUCIAL" x="2.54" y="40.64">
+<element name="U$6" library="CarTalk" package="FIDUCIAL_1MM" value="FIDUCIAL" x="2.54" y="40.64">
 <attribute name="MPN" value="DNP" x="2.54" y="40.64" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$7" library="CarTalkImu" package="FIDUCIAL_1MM" value="FIDUCIAL" x="2.54" y="2.54">
+<element name="U$7" library="CarTalk" package="FIDUCIAL_1MM" value="FIDUCIAL" x="2.54" y="2.54">
 <attribute name="MPN" value="DNP" x="2.54" y="2.54" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$8" library="CarTalkImu" package="FIDUCIAL_1MM" value="FIDUCIAL" x="38.1" y="40.64">
+<element name="U$8" library="CarTalk" package="FIDUCIAL_1MM" value="FIDUCIAL" x="38.1" y="40.64">
 <attribute name="MPN" value="DNP" x="38.1" y="40.64" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$9" library="CarTalkImu" package="FIDUCIAL_1MM" value="FIDUCIAL" x="2.54" y="40.64" rot="MR0">
+<element name="U$9" library="CarTalk" package="FIDUCIAL_1MM" value="FIDUCIAL" x="2.54" y="40.64" rot="MR0">
 <attribute name="MPN" value="DNP" x="2.54" y="40.64" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U$10" library="CarTalkImu" package="FIDUCIAL_1MM" value="FIDUCIAL" x="2.54" y="2.54" rot="MR0">
+<element name="U$10" library="CarTalk" package="FIDUCIAL_1MM" value="FIDUCIAL" x="2.54" y="2.54" rot="MR0">
 <attribute name="MPN" value="DNP" x="2.54" y="2.54" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U$11" library="CarTalkImu" package="FIDUCIAL_1MM" value="FIDUCIAL" x="38.1" y="40.64" rot="MR0">
+<element name="U$11" library="CarTalk" package="FIDUCIAL_1MM" value="FIDUCIAL" x="38.1" y="40.64" rot="MR0">
 <attribute name="MPN" value="DNP" x="38.1" y="40.64" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="WIFI" library="CarTalkImu" package="ESP-12" value="ESP-12" x="20.32" y="28.575" smashed="yes">
+<element name="WIFI" library="CarTalk" package="ESP-12" value="ESP-12" x="20.32" y="28.575" smashed="yes">
 <attribute name="NAME" x="10.795" y="40.005" size="1.016" layer="25" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="20.255" y="26.725" size="1.016" layer="27" rot="R90" align="center"/>
 </element>
-<element name="C1" library="CarTalkImu" package="C0603" value="100n" x="26.035" y="27.305" smashed="yes" rot="MR270">
+<element name="C1" library="CarTalk" package="C0603" value="100n" x="26.035" y="27.305" smashed="yes" rot="MR270">
 <attribute name="NAME" x="26.035" y="24.4475" size="1.016" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="26.035" y="27.305" size="1.016" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="C2" library="CarTalkImu" package="C0603" value="10n" x="26.035" y="31.75" smashed="yes" rot="MR90">
+<element name="C2" library="CarTalk" package="C0603" value="10n" x="26.035" y="31.75" smashed="yes" rot="MR90">
 <attribute name="NAME" x="26.035" y="34.6075" size="1.016" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="26.035" y="31.75" size="1.016" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C3" library="CarTalkImu" package="C0603" value="100n" x="22.225" y="25.4" smashed="yes" rot="MR0">
+<element name="C3" library="CarTalk" package="C0603" value="100n" x="22.225" y="25.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="19.3675" y="25.4" size="1.016" layer="26" rot="MR0" align="center"/>
 <attribute name="VALUE" x="22.225" y="25.4" size="1.016" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="R1" library="CarTalkImu" package="R0603" value="10k" x="35.56" y="26.035" smashed="yes">
+<element name="R1" library="CarTalk" package="R0603" value="10k" x="35.56" y="26.035" smashed="yes">
 <attribute name="MPN" value="" x="35.56" y="26.035" size="1.778" layer="27" display="off"/>
 <attribute name="PN-DK" value="" x="35.56" y="26.035" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="38.4175" y="26.035" size="1.016" layer="25" align="center"/>
 <attribute name="VALUE" x="35.56" y="26.035" size="1.016" layer="27" align="center"/>
 </element>
-<element name="R2" library="CarTalkImu" package="R0603" value="10k" x="35.56" y="23.495" smashed="yes">
+<element name="R2" library="CarTalk" package="R0603" value="10k" x="35.56" y="23.495" smashed="yes">
 <attribute name="MPN" value="" x="35.56" y="23.495" size="1.778" layer="27" display="off"/>
 <attribute name="PN-DK" value="" x="35.56" y="23.495" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="38.4175" y="23.495" size="1.016" layer="25" align="center"/>
 <attribute name="VALUE" x="35.56" y="23.495" size="1.016" layer="27" align="center"/>
 </element>
-<element name="R3" library="CarTalkImu" package="R0603" value="10k" x="35.56" y="20.32" smashed="yes">
+<element name="R3" library="CarTalk" package="R0603" value="10k" x="35.56" y="20.32" smashed="yes">
 <attribute name="MPN" value="" x="35.56" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="PN-DK" value="" x="35.56" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="38.4175" y="20.32" size="1.016" layer="25" align="center"/>
 <attribute name="VALUE" x="35.56" y="20.32" size="1.016" layer="27" align="center"/>
 </element>
-<element name="R4" library="CarTalkImu" package="R0603" value="10k" x="5.715" y="29.21" smashed="yes" rot="R180">
+<element name="R4" library="CarTalk" package="R0603" value="10k" x="5.715" y="29.21" smashed="yes" rot="R180">
 <attribute name="MPN" value="" x="5.715" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PN-DK" value="" x="5.715" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="2.8575" y="29.21" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="5.715" y="29.21" size="1.016" layer="27" rot="R180" align="center"/>
 </element>
-<element name="C5" library="CarTalkImu" package="C0603" value="100n" x="11.43" y="4.1275" smashed="yes" rot="R180">
+<element name="C5" library="CarTalk" package="C0603" value="100n" x="11.43" y="4.1275" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.5725" y="4.1275" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="11.43" y="4.1275" size="1.016" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R5" library="CarTalkImu" package="R0603" value="10k" x="34.925" y="23.495" smashed="yes" rot="MR180">
+<element name="R5" library="CarTalk" package="R0603" value="10k" x="34.925" y="23.495" smashed="yes" rot="MR180">
 <attribute name="MPN" value="" x="34.925" y="23.495" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN-DK" value="" x="34.925" y="23.495" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="38.1" y="23.495" size="1.016" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="34.925" y="23.495" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C6" library="CarTalkImu" package="C0603" value="100n" x="34.925" y="25.4" smashed="yes" rot="MR180">
+<element name="C6" library="CarTalk" package="C0603" value="100n" x="34.925" y="25.4" smashed="yes" rot="MR180">
 <attribute name="NAME" x="38.1" y="25.4" size="1.016" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="34.925" y="25.4" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C7" library="CarTalkImu" package="C0603" value="100n" x="5.715" y="21.59" smashed="yes" rot="R180">
+<element name="C7" library="CarTalk" package="C0603" value="100n" x="5.715" y="21.59" smashed="yes" rot="R180">
 <attribute name="NAME" x="2.8575" y="21.59" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="5.715" y="21.59" size="1.016" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R6" library="CarTalkImu" package="R0603" value="220" x="27.94" y="15.24" smashed="yes" rot="R180">
+<element name="R6" library="CarTalk" package="R0603" value="220" x="27.94" y="15.24" smashed="yes" rot="R180">
 <attribute name="MPN" value="" x="27.94" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PN-DK" value="" x="27.94" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="27.94" y="16.8275" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="27.94" y="15.24" size="1.016" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R7" library="CarTalkImu" package="R0603" value="220" x="27.94" y="13.335" smashed="yes" rot="R180">
+<element name="R7" library="CarTalk" package="R0603" value="220" x="27.94" y="13.335" smashed="yes" rot="R180">
 <attribute name="MPN" value="" x="27.94" y="13.335" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PN-DK" value="" x="27.94" y="13.335" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="27.94" y="11.7475" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="27.94" y="13.335" size="1.016" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R8" library="CarTalkImu" package="R0603" value="220" x="12.065" y="9.525" smashed="yes">
+<element name="R8" library="CarTalk" package="R0603" value="220" x="12.065" y="9.525" smashed="yes">
 <attribute name="MPN" value="" x="12.065" y="9.525" size="1.778" layer="27" display="off"/>
 <attribute name="PN-DK" value="" x="12.065" y="9.525" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.2075" y="9.525" size="1.016" layer="25" align="center"/>
 <attribute name="VALUE" x="12.065" y="9.525" size="1.016" layer="27" align="center"/>
 </element>
-<element name="R9" library="CarTalkImu" package="R0603" value="220" x="12.065" y="11.7475" smashed="yes">
+<element name="R9" library="CarTalk" package="R0603" value="220" x="12.065" y="11.7475" smashed="yes">
 <attribute name="MPN" value="" x="12.065" y="11.7475" size="1.778" layer="27" display="off"/>
 <attribute name="PN-DK" value="" x="12.065" y="11.7475" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.2075" y="11.7475" size="1.016" layer="25" align="center"/>
 <attribute name="VALUE" x="12.065" y="11.7475" size="1.016" layer="27" align="center"/>
 </element>
-<element name="R10" library="CarTalkImu" package="R0603" value="220" x="35.56" y="33.655" smashed="yes" rot="R180">
+<element name="R10" library="CarTalk" package="R0603" value="220" x="35.56" y="33.655" smashed="yes" rot="R180">
 <attribute name="MPN" value="" x="35.56" y="33.655" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PN-DK" value="" x="35.56" y="33.655" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.56" y="35.56" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="35.56" y="33.655" size="1.016" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R11" library="CarTalkImu" package="R0603" value="220" x="35.56" y="31.75" smashed="yes" rot="R180">
+<element name="R11" library="CarTalk" package="R0603" value="220" x="35.56" y="31.75" smashed="yes" rot="R180">
 <attribute name="MPN" value="" x="35.56" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PN-DK" value="" x="35.56" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.56" y="29.845" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="35.56" y="31.75" size="1.016" layer="27" rot="R180" align="center"/>
 </element>
-<element name="C8" library="CarTalkImu" package="C0805" value="10u" x="11.43" y="6.35" smashed="yes" rot="R180">
+<element name="C8" library="CarTalk" package="C0805" value="10u" x="11.43" y="6.35" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.5725" y="6.35" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="11.43" y="6.35" size="1.016" layer="27" rot="R180" align="center"/>
 <attribute name="PN-DK" value="" x="11.43" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="11.43" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C9" library="CarTalkImu" package="C0603" value="1u" x="5.715" y="19.05" smashed="yes" rot="R180">
+<element name="C9" library="CarTalk" package="C0603" value="1u" x="5.715" y="19.05" smashed="yes" rot="R180">
 <attribute name="NAME" x="2.8575" y="19.05" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="5.715" y="19.05" size="1.016" layer="27" rot="R180" align="center"/>
 </element>
-<element name="C10" library="CarTalkImu" package="C0805" value="10u" x="35.56" y="16.51" smashed="yes">
+<element name="C10" library="CarTalk" package="C0805" value="10u" x="35.56" y="16.51" smashed="yes">
 <attribute name="NAME" x="35.56" y="18.415" size="1.016" layer="25" align="center"/>
 <attribute name="VALUE" x="35.56" y="16.51" size="1.016" layer="27" align="center"/>
 <attribute name="PN-DK" value="" x="35.56" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="35.56" y="16.51" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C11" library="CarTalkImu" package="C0603" value="1u" x="35.56" y="13.97" smashed="yes">
+<element name="C11" library="CarTalk" package="C0603" value="1u" x="35.56" y="13.97" smashed="yes">
 <attribute name="NAME" x="32.385" y="13.97" size="1.016" layer="25" align="center"/>
 <attribute name="VALUE" x="35.56" y="13.97" size="1.016" layer="27" align="center"/>
 </element>
-<element name="TPH" library="CarTalkImu" package="BME-DFN8" value="BME680" x="15.875" y="27.305" smashed="yes" rot="MR90">
+<element name="TPH" library="CarTalk" package="BME-DFN8" value="BME680" x="15.875" y="27.305" smashed="yes" rot="MR90">
 <attribute name="MFG" value="Bosch Sensortec" x="15.875" y="27.305" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PN-DK" value="828-1077-1-ND" x="15.875" y="27.305" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="BME680" x="15.875" y="27.305" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="13.335" y="27.305" size="1.016" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="13.335" y="27.305" size="1.016" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C12" library="CarTalkImu" package="C0603" value="100n" x="18.415" y="22.86" smashed="yes" rot="MR270">
+<element name="C12" library="CarTalk" package="C0603" value="100n" x="18.415" y="22.86" smashed="yes" rot="MR270">
 <attribute name="NAME" x="20.32" y="22.86" size="1.016" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="18.415" y="22.86" size="1.016" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="C4" library="CarTalkImu" package="C0603" value="10n" x="15.875" y="22.86" smashed="yes" rot="MR270">
+<element name="C4" library="CarTalk" package="C0603" value="10n" x="15.875" y="22.86" smashed="yes" rot="MR270">
 <attribute name="NAME" x="13.97" y="22.86" size="1.016" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="15.875" y="22.86" size="1.016" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="FB1" library="CarTalkImu" package="R0603" value="10" x="21.9075" y="18.415" smashed="yes" rot="MR180">
+<element name="FB1" library="CarTalk" package="R0603" value="10" x="21.9075" y="18.415" smashed="yes" rot="MR180">
 <attribute name="PN-DK" value="" x="21.9075" y="18.415" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="" x="21.9075" y="18.415" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="21.9075" y="16.8275" size="1.016" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="21.9075" y="18.415" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C13" library="CarTalkImu" package="C0603" value="100n" x="35.56" y="11.43" smashed="yes">
+<element name="C13" library="CarTalk" package="C0603" value="100n" x="35.56" y="11.43" smashed="yes">
 <attribute name="NAME" x="32.385" y="11.43" size="1.016" layer="25" align="center"/>
 <attribute name="VALUE" x="35.56" y="11.43" size="1.016" layer="27" align="center"/>
 </element>
-<element name="C14" library="CarTalkImu" package="C0603" value="100n" x="18.415" y="19.05" smashed="yes" rot="MR90">
+<element name="C14" library="CarTalk" package="C0603" value="100n" x="18.415" y="19.05" smashed="yes" rot="MR90">
 <attribute name="NAME" x="18.415" y="15.875" size="1.016" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="18.415" y="19.05" size="1.016" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C15" library="CarTalkImu" package="C0805" value="10u" x="15.875" y="19.05" smashed="yes" rot="MR90">
+<element name="C15" library="CarTalk" package="C0805" value="10u" x="15.875" y="19.05" smashed="yes" rot="MR90">
 <attribute name="PN-DK" value="" x="15.875" y="19.05" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="" x="15.875" y="19.05" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="13.97" y="19.05" size="1.016" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="15.875" y="19.05" size="1.016" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C16" library="CarTalkImu" package="C0603" value="100n" x="12.065" y="13.97" smashed="yes" rot="R180">
+<element name="C16" library="CarTalk" package="C0603" value="100n" x="12.065" y="13.97" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.89" y="13.97" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.065" y="13.97" size="1.016" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R12" library="CarTalkImu" package="R0603" value="220" x="12.7" y="16.1925" smashed="yes">
+<element name="R12" library="CarTalk" package="R0603" value="220" x="12.7" y="16.1925" smashed="yes">
 <attribute name="PN-DK" value="" x="12.7" y="16.1925" size="0.6" layer="27" display="off"/>
 <attribute name="MPN" value="" x="12.7" y="16.1925" size="0.6" layer="27" display="off"/>
 <attribute name="NAME" x="15.875" y="16.1925" size="1.016" layer="25" align="center"/>
