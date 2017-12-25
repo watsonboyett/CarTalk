@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -255,7 +255,7 @@ by exp-lbrs.ulp</description>
 <vertex x="0" y="1" curve="90"/>
 </polygon>
 </package>
-<package name="QFN24">
+<package name="QFN24-NP">
 <circle x="-1.524" y="-2.032" radius="0.1905" width="0.1016" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
@@ -309,7 +309,6 @@ by exp-lbrs.ulp</description>
 <smd name="22" x="-1.4" y="-0.2" dx="0.48" dy="0.2" layer="1" roundness="75"/>
 <smd name="23" x="-1.4" y="-0.6" dx="0.48" dy="0.2" layer="1" roundness="75"/>
 <smd name="24" x="-1.45" y="-1" dx="0.48" dy="0.2" layer="1" roundness="75"/>
-<smd name="25" x="0" y="0" dx="1.7" dy="1.5" layer="1"/>
 <text x="0" y="3.048" size="1.016" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.016" layer="27" align="center">&gt;VALUE</text>
 </package>
@@ -3525,9 +3524,85 @@ Source: VISHAY wscwsn.pdf</description>
 <smd name="14" x="7.5" y="0.5" dx="2" dy="1.2" layer="1"/>
 <smd name="15" x="7.5" y="2.5" dx="2" dy="1.2" layer="1"/>
 <smd name="16" x="7.5" y="4.5" dx="2" dy="1.2" layer="1"/>
-<text x="-0.1" y="8.3" size="1.27" layer="21" font="vector" ratio="12" align="center">Antenna</text>
-<text x="-5" y="-12" size="1.4224" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-<text x="4.5" y="-12" size="1.4224" layer="27" font="vector" ratio="12" align="center">&gt;VALUE</text>
+<text x="-0.1" y="8.3" size="1.016" layer="48" ratio="12" align="center">Antenna</text>
+<text x="0" y="-12.7" size="1.016" layer="25" ratio="12" align="center">&gt;NAME</text>
+<text x="0" y="-1.27" size="1.016" layer="27" ratio="12" align="center">&gt;VALUE</text>
+</package>
+<package name="BME-DFN8">
+<smd name="1" x="1.25" y="1.2" dx="0.5" dy="0.4" layer="1"/>
+<smd name="2" x="1.25" y="0.4" dx="0.5" dy="0.4" layer="1"/>
+<smd name="3" x="1.25" y="-0.4" dx="0.5" dy="0.4" layer="1"/>
+<smd name="4" x="1.25" y="-1.2" dx="0.5" dy="0.4" layer="1"/>
+<smd name="5" x="-1.25" y="-1.2" dx="0.5" dy="0.4" layer="1"/>
+<smd name="6" x="-1.25" y="-0.4" dx="0.5" dy="0.4" layer="1"/>
+<smd name="7" x="-1.25" y="0.4" dx="0.5" dy="0.4" layer="1"/>
+<smd name="8" x="-1.25" y="1.2" dx="0.5" dy="0.4" layer="1"/>
+<wire x1="-1.6" y1="1.6" x2="-1.6" y2="-1.6" width="0.127" layer="49"/>
+<wire x1="-1.6" y1="-1.6" x2="1.6" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="-1.6" y2="1.6" width="0.127" layer="21"/>
+<circle x="-0.6" y="-0.6" radius="0.15" width="0.08" layer="21"/>
+<wire x1="1.8" y1="1.2" x2="2.4" y2="1.2" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="1.6" y2="-1.6" width="0.127" layer="49"/>
+<text x="0" y="2.54" size="1.016" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.016" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="QFN24">
+<circle x="-1.524" y="-2.032" radius="0.1905" width="0.1016" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<rectangle x1="-0.3" y1="-1.5" x2="-0.1" y2="-1.2" layer="51"/>
+<rectangle x1="0.1" y1="-1.5" x2="0.3" y2="-1.2" layer="51"/>
+<rectangle x1="0.5" y1="-1.5" x2="0.7" y2="-1.2" layer="51"/>
+<rectangle x1="0.9" y1="-1.5" x2="1.1" y2="-1.2" layer="51"/>
+<rectangle x1="-0.7" y1="-1.5" x2="-0.5" y2="-1.2" layer="51"/>
+<rectangle x1="-1.1" y1="-1.5" x2="-0.9" y2="-1.2" layer="51"/>
+<rectangle x1="0.9" y1="1.2" x2="1.1" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="0.5" y1="1.2" x2="0.7" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="0.1" y1="1.2" x2="0.3" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-0.3" y1="1.2" x2="-0.1" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-0.7" y1="1.2" x2="-0.5" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-1.1" y1="1.2" x2="-0.9" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-1.45" y1="0.85" x2="-1.25" y2="1.15" layer="51" rot="R270"/>
+<rectangle x1="-1.45" y1="0.45" x2="-1.25" y2="0.75" layer="51" rot="R270"/>
+<rectangle x1="-1.45" y1="0.05" x2="-1.25" y2="0.35" layer="51" rot="R270"/>
+<rectangle x1="-1.45" y1="-0.35" x2="-1.25" y2="-0.05" layer="51" rot="R270"/>
+<rectangle x1="-1.45" y1="-0.75" x2="-1.25" y2="-0.45" layer="51" rot="R270"/>
+<rectangle x1="-1.45" y1="-1.15" x2="-1.25" y2="-0.85" layer="51" rot="R270"/>
+<rectangle x1="1.25" y1="-1.15" x2="1.45" y2="-0.85" layer="51" rot="R90"/>
+<rectangle x1="1.25" y1="-0.75" x2="1.45" y2="-0.45" layer="51" rot="R90"/>
+<rectangle x1="1.25" y1="-0.35" x2="1.45" y2="-0.05" layer="51" rot="R90"/>
+<rectangle x1="1.25" y1="0.05" x2="1.45" y2="0.35" layer="51" rot="R90"/>
+<rectangle x1="1.25" y1="0.45" x2="1.45" y2="0.75" layer="51" rot="R90"/>
+<rectangle x1="1.25" y1="0.85" x2="1.45" y2="1.15" layer="51" rot="R90"/>
+<smd name="1" x="-1" y="-1.45" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="2" x="-0.6" y="-1.4" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="3" x="-0.2" y="-1.4" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="4" x="0.2" y="-1.4" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="5" x="0.6" y="-1.4" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="6" x="1" y="-1.45" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="7" x="1.45" y="-1" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="8" x="1.4" y="-0.6" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="9" x="1.4" y="-0.2" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="10" x="1.4" y="0.2" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="11" x="1.4" y="0.6" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="12" x="1.45" y="1" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="13" x="1" y="1.45" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R270"/>
+<smd name="14" x="0.6" y="1.4" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R270"/>
+<smd name="15" x="0.2" y="1.4" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R270"/>
+<smd name="16" x="-0.2" y="1.4" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R270"/>
+<smd name="17" x="-0.6" y="1.4" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R270"/>
+<smd name="18" x="-1" y="1.45" dx="0.48" dy="0.2" layer="1" roundness="75" rot="R270"/>
+<smd name="19" x="-1.45" y="1" dx="0.48" dy="0.2" layer="1" roundness="75"/>
+<smd name="20" x="-1.4" y="0.6" dx="0.48" dy="0.2" layer="1" roundness="75"/>
+<smd name="21" x="-1.4" y="0.2" dx="0.48" dy="0.2" layer="1" roundness="75"/>
+<smd name="22" x="-1.4" y="-0.2" dx="0.48" dy="0.2" layer="1" roundness="75"/>
+<smd name="23" x="-1.4" y="-0.6" dx="0.48" dy="0.2" layer="1" roundness="75"/>
+<smd name="24" x="-1.45" y="-1" dx="0.48" dy="0.2" layer="1" roundness="75"/>
+<smd name="25" x="0" y="0" dx="1.7" dy="1.5" layer="1"/>
+<text x="0" y="3.048" size="1.016" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="27" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -3809,6 +3884,21 @@ to update values on the board</text>
 <pin name="VCC" x="-17.78" y="-12.7" length="middle" direction="pwr"/>
 <text x="0" y="0" size="1.778" layer="94" font="vector" ratio="12" rot="R90" align="center">ESP12</text>
 </symbol>
+<symbol name="BME680">
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<pin name="CSB" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="GND" x="-15.24" y="-7.62" length="short"/>
+<pin name="SCK" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="SDI" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="SDO" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="VDD" x="-15.24" y="5.08" length="short"/>
+<pin name="VDDIO" x="-15.24" y="2.54" length="short"/>
+<text x="0" y="10.16" size="1.524" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.524" layer="96" align="center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="1X10">
@@ -3836,6 +3926,7 @@ to update values on the board</text>
 </devices>
 </deviceset>
 <deviceset name="CAM-M8">
+<description>IC RECEIVER GPS CHIP ANT 31LCC RF Receiver BeiDou, GLONASS, GNSS, GPS 1.575GHz -167dBm On-Board, Chip Module</description>
 <gates>
 <gate name="G$1" symbol="CAM-M8" x="0" y="0"/>
 </gates>
@@ -3860,7 +3951,11 @@ to update values on the board</text>
 <connect gate="G$1" pin="V_BCKP" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="U-Blox America Inc." constant="no"/>
+<attribute name="MPN" value="CAM-M8Q-0" constant="no"/>
+<attribute name="PN-DK" value="672-1013-1-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3899,11 +3994,12 @@ LETTER landscape</description>
 </devices>
 </deviceset>
 <deviceset name="MPU9250">
+<description>IMU ACCEL/GYRO/MAG I2C/SPI 24QFN</description>
 <gates>
 <gate name="G$1" symbol="MPU9250" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="QFN24">
+<device name="" package="QFN24-NP">
 <connects>
 <connect gate="G$1" pin="/CS" pad="22"/>
 <connect gate="G$1" pin="AD0/SDO" pad="9"/>
@@ -3921,7 +4017,11 @@ LETTER landscape</description>
 <connect gate="G$1" pin="VDDIO" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="TDK InvenSense" constant="no"/>
+<attribute name="MPN" value="MPU-9250" constant="no"/>
+<attribute name="PN-DK" value="1428-1019-1-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5496,6 +5596,32 @@ LETTER landscape</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BME680">
+<description>SENSOR Gas, Humidity, Pressure, Temperature Sensor, I²C, SPI Output</description>
+<gates>
+<gate name="G$1" symbol="BME680" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BME-DFN8">
+<connects>
+<connect gate="G$1" pin="CSB" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1 7"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+<connect gate="G$1" pin="SDI" pad="3"/>
+<connect gate="G$1" pin="SDO" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG" value="Bosch Sensortec" constant="no"/>
+<attribute name="MPN" value="BME680" constant="no"/>
+<attribute name="PN-DK" value="828-1077-1-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
